@@ -12,3 +12,7 @@ def pede_movimento
   puts "Para qual lado você que ir?"
   direcao = gets.strip.upcase
 end
+
+def game_over
+  puts "Que pena, você perdeu!"
+end
